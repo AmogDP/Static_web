@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Bring your HTML Tags into visibility => Background Color */
+
+.topbar-cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-cont{
+    padding-left: 5px;
+}
+
+.nav-cont{
+    /*background-color:rgb(185, 168, 192);*/
+    display: flex;
+    width: 12rem;
+    justify-content: space-between;
+    padding-right: 11px;
+}
+.navigation-cont{
+    display: flex;
+}
+
+.navigation-cont:hover{
+    color:rgb(163, 87, 144);
+    cursor: pointer;
+}
+
+.image-cont{
+    justify-content: space-between;
+    display: flex;
+    width: 78vh;
+    height: 75vw;
+    margin-left: 8px;
+    margin-right: 5px;
+    padding-right: 10px;
+}
+
+.content{
+    justify-content: space-around;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-right: 5px;
+}
+
+.content-cont{
+    text-align: center;
+    display: flex;
+}
+
+.similar-cont > img{
+    width: 15rem;
+
+}
+
+.copyright-cont{
+    background-color: antiquewhite;
+    color:rgb(94, 37, 37);
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+    font-weight: bolder;
+}
+
+img { 
+	transition: all .65s ease-in-out; 
+}
+img:hover { 
+    	transform: scale(1.03); 
+    }
+
+
